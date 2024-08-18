@@ -15,15 +15,23 @@
 #                print("You have an F ")
 
 
-#nested
-grade = int(input("What is your test score? "))
-if grade >= 80:
-    print("You have an A.")
-elif grade >= 65:
-    print("You have a B. ")
-elif grade >= 50:
-    print("You have a C. ")
-elif grade >= 45:
-    print("You have a D ")
+# #nested
+# grade = int(input("What is your test score? "))
+# if grade >= 80:
+#     print("You have an A.")
+# elif grade >= 65:
+#     print("You have a B. ")
+# elif grade >= 50:
+#     print("You have a C. ")
+# elif grade >= 45:
+#     print("You have a D ")
+# else:
+#     print("You have an F ")
+
+
+
+grade = 72
+if grade >= 70:
+  print("You have passed the class.")
 else:
-    print("You have an F ")
+  print("You have not passed the class.")
